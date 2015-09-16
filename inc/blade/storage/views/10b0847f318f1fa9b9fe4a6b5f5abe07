@@ -1,0 +1,9 @@
+
+<?php \Laravel\Section::start('content'); ?>
+		<main class="container" role="main">
+		   <article>
+			<?php echo \Laravel\Section::do_yield('page-content'); ?>
+			</article>
+		</main><!-- /.main -->
+<?php \Laravel\Section::stop(); ?>
+<?php echo view('templates.layouts.base')->with(get_defined_vars())->render(); ?>

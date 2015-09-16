@@ -1,0 +1,8 @@
+<?php // D:\website\mapp.hk/wp-content/themes/cutlass-wp-theme-master/single.php ?>
+
+<?php \Laravel\Section::start('page-content'); ?>
+
+	<?php echo view('templates.content.single')->with(get_defined_vars())->render(); ?>
+
+<?php \Laravel\Section::stop(); ?>
+<?php echo view( 'templates.layouts.normal' )->with(get_defined_vars())->render(); ?>

@@ -1,0 +1,8 @@
+<?php // C:\Users\user\Desktop\BreakNg\xamp\htdocs\wordpress/wp-content/themes/BreakNg/front-page.php ?>
+
+<?php \Laravel\Section::start('page-content'); ?>
+
+	<?php echo view('templates.content.front-page')->with(get_defined_vars())->render(); ?>
+
+<?php \Laravel\Section::stop(); ?>
+<?php echo view( 'templates.layouts.normal' )->with(get_defined_vars())->render(); ?>

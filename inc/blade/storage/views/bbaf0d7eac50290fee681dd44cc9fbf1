@@ -1,0 +1,51 @@
+<section id="services" class=" no-parallax" style=" ">              
+                <div class="services-bkg mutualWrap" style=" ">
+        <div class="container">
+        <div class="row">
+        
+
+        <div class="alignc">
+                <h1 class="section-title">Services</h1>
+
+        </div>
+        
+        </div><!--end row -->
+                   
+    <div class="row service-items fadeInUp">
+     <div class="col-md-3 about-feature alignc">
+    <div class="about-img">
+        <div class="about-img-pos"><i class="fa fa-apple"></i></div>
+    </div>
+    <h4><i>iOS Development</i></h4>
+    <span>We customize interactive development for every client need.And,we offer iPhone and iPad iOS Apps Development for the widest range of clients across different industries.</span>
+     </div><!--end home-feature-->   
+
+     <div class="col-md-3 about-feature alignc">
+    <div class="about-img">
+        <div class="about-img-pos"> <i class="fa fa-android"></i></div>
+    </div>
+    <h4><i>Android Development</i></h4>
+    <span>We’ve developed hundreds of cool Android apps on releases from 2.0 to 5.0. From brick to house, simple phones to custom devices to Android wearables — we’ve done it all.</span>
+     </div><!--end home-feature-->   
+
+     <div class="col-md-3 about-feature alignc">
+    <div class="about-img">
+        <div class="about-img-pos"><i class="fa fa-desktop"></i></div>
+    </div>
+    <h4><i>Web Design</i> </h4>
+    <span>Our professional  <strong>web designers</strong> are aimed at tailor-making you a perfect website. You will be able to have your company's own website soon.</span>
+     </div><!--end home-feature-->  
+
+     <div class="col-md-3 about-feature alignc">
+    <div class="about-img">
+        <div class="about-img-pos"><i class="fa fa-html5"></i></div>
+    </div>
+    <h4><i>Web App</i></h4>
+    <span>
+   We specialize in building cross-platform websites and apps,delivering a perfect user interface and functionality that is compatible with all mobile devices.</span>
+     </div><!--end home-feature-->    
+                   
+                </div><!--end container -->
+        <!--end services-bkg-->
+               
+        </section>

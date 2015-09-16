@@ -1,0 +1,64 @@
+<section id="about" class=" parallax" style="background-image:url(<?php bloginfo('template_url'); ?>/public/images/bkgs/bkg-diamond.png); ">
+    
+                <div class="about-bkg mutualWrap">
+        <div class="container">
+        <div class="row">
+        
+
+        <div class="alignc">
+                <h1 class="section-title">About us</h1>
+        </div>
+
+                <div class="span8 offset2">
+           <h4 class="section-text alignc">MCastle specializes in developing innovative mobile applications and tailor-made services with leading-edge technology. We equipped ourselves with intelligence on customer needs, project delivery and technologies.</h4>
+        </div><!--end span8 -->
+        
+        </div><!--end row -->
+                
+        <div class="row">
+        <div class="col-md-2 about-feature alignc">
+    <div class="about-img">
+        <div class="about-img-pos"> 3</div>
+    </div>
+      <h4>3 Platforms</h4>
+    <span>iOS Android Web</span>
+     </div><!--end home-feature-->   
+
+        <div class="col-md-2 about-feature alignc">
+    <div class="about-img">
+        <div class="about-img-pos">5</div>
+    </div>
+    <h4>5 Years Exp</h4>
+    <span>2010-NOW Becoming the BEST we can be</span>
+
+        </div><!--end home-feature-->   
+        
+<div class="col-md-2 about-feature alignc">
+    <div class="about-img">
+        <div class="about-img-pos">10 </div>
+    </div>
+    <h4>10 Listed firms</h4>
+    <span>Over 10 listing Corporation</span>
+        </div><!--end home-feature-->   
+
+<div class="col-md-2 about-feature alignc">
+    <div class="about-img">
+        <div class="about-img-pos"> 100</div>
+     </div>
+    <h4>100 developers</h4>
+    <span> Industry top engineer</span>
+
+        </div><!--end home-feature-->
+
+<div class="col-md-2 about-feature alignc">
+    <div class="about-img">
+        <div class="about-img-pos"> 1000 </div>
+    </div>
+    <h4>1000 Products</h4>
+    <span>Completed 1000+ product designs</span>
+
+        </div></div><!--end row-->
+
+</div><!--end container -->
+</div><!--end about-bkg-->
+</section><!--end about-->

@@ -1,0 +1,96 @@
+<section id="team" class=" parallax" style=" background-image:url(<?php bloginfo('template_url'); ?>/public/images/bkgs/bkg-team.jpg); ">                 
+        <div class="team-bkg mutualWrap" style="background-color: rgba(15, 37, 64, 0.7); ">
+        <div class="container">
+        <div class="row">
+
+        <div class="alignc">
+            <h1 class="section-sub-title">Our team</h1>
+        </div>
+        </div><!--end row -->
+                   
+ <div class="flexslider flexslider-team row">
+<ul class="slides span12" >
+
+            <div class="col-md-1 team-member alignc">
+         <div class="team-member-img">
+         <img src="<?php bloginfo('template_url'); ?>/public/images/team/t1.jpg" alt="" draggable="false">
+         </div>
+         <h4>Patrick Yeung</h4>
+         </div><!--end span3-->
+             
+               <div class="col-md-1 team-member alignc">
+         <div class="team-member-img">
+         <img src="<?php bloginfo('template_url'); ?>/public/images/team/t2.jpg" alt="" draggable="false">
+         </div>
+         <h4>Daniel Cheung</h4>
+         </div><!--end span3-->
+           <div class="col-md-1 team-member alignc">
+         <div class="team-member-img">
+         <img src="<?php bloginfo('template_url'); ?>/public/images/team/t3.jpg" alt="" draggable="false">
+         </div>
+         <h4>Will  Yeung</h4>
+         </div><!--end span3-->
+           <div class="col-md-1 team-member alignc">
+         <div class="team-member-img">
+         <img src="<?php bloginfo('template_url'); ?>/public/images/team/t4.jpg" alt="" draggable="false">
+         </div>
+         <h4>Alan Lan</h4>
+         </div><!--end span3-->
+            <div class="col-md-1 team-member alignc">
+         <div class="team-member-img">
+         <img src="<?php bloginfo('template_url'); ?>/public/images/team/t5.jpg" alt="" draggable="false">
+         </div>
+         <h4>Raymond Yeung</h4>
+         
+         </div><!--end span3-->
+             <div class="col-md-1 team-member alignc">
+         <div class="team-member-img">
+         <img src="<?php bloginfo('template_url'); ?>/public/images/team/t6.jpg" alt="" draggable="false">
+         </div>
+         <h4>Kaylie Chan</h4>
+         </div><!--end span3-->
+            <div class="col-md-1 team-member alignc">
+         <div class="team-member-img">
+         <img src="<?php bloginfo('template_url'); ?>/public/images/team/t7.jpg" alt="" draggable="false">
+         </div>
+         <h4>Wisley</h4>
+         
+         </div><!--end span3-->
+          <div class="col-md-1 team-member alignc">
+         <div class="team-member-img">
+         <img src="<?php bloginfo('template_url'); ?>/public/images/team/t8.jpg" alt="" draggable="false">
+         </div>
+         <h4>Elton Yeung</h4>
+         </div><!--end span3-->
+            <div class="col-md-1 team-member alignc">
+         <div class="team-member-img">
+         <img src="<?php bloginfo('template_url'); ?>/public/images/team/t9.jpg" alt="" draggable="false">
+         </div>
+         <h4>Frank Cheung</h4>
+         
+         </div><!--end span3-->
+          <div class="col-md-1 team-member alignc">
+         <div class="team-member-img">
+         <img src="<?php bloginfo('template_url'); ?>/public/images/team/t10.jpg" alt="" draggable="false">
+         </div>
+         <h4>Jinn Cheung</h4>
+         </div><!--end span3-->
+            <div class="col-md-1 team-member alignc">
+         <div class="team-member-img">
+         <img src="<?php bloginfo('template_url'); ?>/public/images/team/t11.jpg" alt="" draggable="false">
+         </div>
+         <h4>Johnny Lui</h4>
+         
+         </div><!--end span3-->
+          <div class="col-md-1 team-member alignc">
+         <div class="team-member-img">
+         <img src="<?php bloginfo('template_url'); ?>/public/images/team/t12.jpg" alt="" draggable="false">
+         </div>
+         <h4>Owen Chan</h4>
+        
+         </div><!--end span3-->
+        
+        </div></ul></div></div><!--end flexslider-->
+</div><!--end container -->
+<div><!--end team-bkg-->
+</div></div></section><!--end team-->

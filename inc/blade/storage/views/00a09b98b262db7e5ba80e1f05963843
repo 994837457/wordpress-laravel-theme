@@ -1,0 +1,24 @@
+<?php echo view('templates.includes.head')->with(get_defined_vars())->render(); ?>
+
+<body <?php echo  body_class() ; ?> >
+
+  <!--[if lt IE 8]>
+    <div class="alert alert-warning">
+      <?php echo  _e('You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.', 'cutlass') ; ?>
+    </div>
+  <![endif]-->
+  
+  <?php echo view('templates.includes.header')->with(get_defined_vars())->render(); ?>
+
+  <div class="wrap" role="document">
+    <div class="content">
+      <?php echo \Laravel\Section::do_yield('content'); ?>
+    </div><!-- /.content -->
+  </div><!-- /.wrap -->
+
+  <?php echo view('templates.includes.footer')->with(get_defined_vars())->render(); ?>
+
+  <?php echo  wp_footer() ; ?>
+
+</body>
+</html>

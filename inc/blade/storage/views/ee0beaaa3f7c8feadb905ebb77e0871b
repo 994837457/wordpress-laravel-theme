@@ -1,0 +1,19 @@
+<?php echo view('templates.includes.page-header')->with(get_defined_vars())->render(); ?>
+
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+  <?php echo view('templates.content.excerpt')->with(get_defined_vars())->render(); ?>
+<?php endwhile; ?><?php else: ?>
+  <div class="alert alert-warning">
+    <?php echo  _e('Sorry, no results were found.', 'cutlass') ; ?> 
+  </div>
+  <?php echo  get_search_form(false) ; ?>
+<?php endif; wp_reset_postdata(); ?>
+
+<?php if ($wp_query->max_num_pages > 1): ?>
+  <nav class="post-nav">
+    <ul class="pager">
+      <li class="previous"><?php echo  next_posts_link(__('&larr; Older posts', 'cutlass')) ; ?></li>
+      <li class="next"><?php echo  previous_posts_link(__('Newer posts &rarr;', 'cutlass')) ; ?></li>
+    </ul>
+  </nav>
+<?php endif; ?>

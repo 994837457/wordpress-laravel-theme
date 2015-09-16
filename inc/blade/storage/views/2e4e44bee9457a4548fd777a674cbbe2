@@ -1,0 +1,5 @@
+<header class="page-header">
+  <h2>
+    <?php echo  cutlass_title() ; ?>
+  </h2>
+</header>

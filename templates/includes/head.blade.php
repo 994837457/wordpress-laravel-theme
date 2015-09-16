@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en-US" {{ language_attributes() }}>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{{ wp_title('|', true, 'right') }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="canonical" href="http://www.breakng.com/">
+   <link rel="shortcut icon" href="images/favicon.ico">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"> 
+   <link rel="shortcut icon" href="http://www.breakng.com/favicon.ico">
+   <link rel="stylesheet" href="http://www.breakng.com/public/bootstrap/css/font-awesome.css">
+   <link rel="stylesheet" href="{{ bloginfo('stylesheet_url')}}" type="text/css" media="screen" />
+   <link rel="stylesheet" href= "{{ bloginfo('template_url')}}/public/css/animate.css" type="text/css" media="all">
+   <link rel="stylesheet" href= "{{ bloginfo('template_url')}}/public/css/main.css" type="text/css" media="all">
+   <link rel="stylesheet" href= "{{ bloginfo('template_url')}}/public/css/normalize.css" type="text/css" media="all">
+   <meta name="description" content="BreakNg">
+   <meta name="keywords" content="BreakNg">
+  {{ wp_head() }}
+  <link rel="alternate" type="application/rss+xml" title="{{ get_bloginfo('name') }} Feed" href="{{ esc_url(get_feed_link()) }}">
+</head>

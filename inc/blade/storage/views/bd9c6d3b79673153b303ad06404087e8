@@ -1,0 +1,9 @@
+<article <?php echo  post_class() ; ?>>
+  <header>
+    <h2 class="entry-title"><a href="<?php echo  the_permalink() ; ?>" title="<?php echo  the_title() ; ?>"><?php echo  the_title() ; ?></a></h2>
+    <?php echo view('templates.includes.entry-meta')->with(get_defined_vars())->render(); ?>
+  </header>
+  <div class="entry-summary">
+    <?php echo  the_excerpt() ; ?>
+  </div>
+</article>

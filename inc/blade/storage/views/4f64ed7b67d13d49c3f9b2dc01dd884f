@@ -1,0 +1,54 @@
+ <section id="contact" class=" no-parallax" style=" ">
+        
+        <div class="contact-bkg mutualWrap" style="  background-color:rgb(33, 182, 222); ">
+        <div class="container">
+        <div class="row">
+        <div class="alignc">
+                <h1 class="section-title section-color-c">Contact</h1>
+        </div>
+        
+        </div><!--end row -->
+                
+        <div class="row">
+<div class="span7">
+
+<div id="output"></div>
+
+</div><!--end span7-->
+
+</div><!--end row-->     
+<div class="row">
+<div class="col-md-6">
+
+<div id="contact-container" class="clearfix">
+
+<form action="" method="POST">
+<input type="hidden" name="" value="">
+<input type="text" name="nickname" class="comm-field" placeholder="Name" value="" size="22" tabindex="1" aria-required="true">
+<input type="email" name="email" class="comm-field" placeholder="Email" value="" size="22" tabindex="2" aria-required="true">
+<input type="text" name="website" class="comm-field" placeholder="phone" value="" size="22" tabindex="3" aria-required="true">       
+<textarea name="content" id="message2" placeholder="Message" rows="9" tabindex="4"></textarea> 
+<input type="submit" value="Send Message" id="submit" tabindex="5">
+</form>
+
+<div id="output"></div>
+
+</div>
+</div><!--end col-md-7-->
+
+<div  class="col-md-6 ">
+<div id="contact-container" class="map parallax"></div>  
+<div class="margin-t">
+<div class="contact-address">
+<ul>
+<i class="fa fa-map-marker"></i>    3/F Cornwall Court, 687-689 Nathan Rd, Mong Kok, Hong Kong</li>
+<li><i class="fa fa-mobile" style="font-size: 35px;position: relative;top: 7px;"></i>     (852)2135 6702</li>
+<li><i class="fa fa-envelope-o"></i>    Mapp@mapp.hk</li>
+</ul>
+</div>
+</div> 
+</div><!--end col-md-3-->
+</div>        
+</div><!--end container -->
+   </div><!--end contact-bkg-->                
+        </section>

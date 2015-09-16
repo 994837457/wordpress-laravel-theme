@@ -1,0 +1,429 @@
+<header id="intro" class="parallax" style="height: 1269px;">
+    <div class="bkg-cover">
+    <div class="container">
+        <div class="row-fluid intro-elem">
+            <div class="span8 offset2">
+                        <div> <a href="http://www.mapp.hk/"> <img src="<?php bloginfo('template_url'); ?>/public/images/logo-big.png" alt="" class="logos"></a></div>
+            
+                        <h4 class="intro-text">Making a stunning app requires passion and vision. From strategy to design to development, MCastle will help you every step of the way.</h4>
+            
+                                    <p><a class=" btn-flat goto" href="apps">Get Your Own Apps</a></p>
+            
+             </div><!--.span9-->        
+          </div><!--.row-fluid-->
+      </div> <!--.container-->
+
+    </div><!--.bkg-cover-->
+  </header> <!--#intro-->
+<section id="services" class=" no-parallax" style=" ">              
+                <div class="services-bkg mutualWrap" style=" ">
+        <div class="container">
+        <div class="row">
+        
+
+        <div class="alignc">
+                <h1 class="section-title">Services</h1>
+
+        </div>
+        
+        </div><!--end row -->
+                   
+    <div class="row service-items fadeInUp">
+     <div class="col-md-3 about-feature alignc">
+    <div class="about-img">
+        <div class="about-img-pos"><i class="fa fa-apple"></i></div>
+    </div>
+    <h4><i>iOS Development</i></h4>
+    <span>We customize interactive development for every client need.And,we offer iPhone and iPad iOS Apps Development for the widest range of clients across different industries.</span>
+     </div><!--end home-feature-->   
+
+     <div class="col-md-3 about-feature alignc">
+    <div class="about-img">
+        <div class="about-img-pos"> <i class="fa fa-android"></i></div>
+    </div>
+    <h4><i>Android Development</i></h4>
+    <span>We’ve developed hundreds of cool Android apps on releases from 2.0 to 5.0. From brick to house, simple phones to custom devices to Android wearables — we’ve done it all.</span>
+     </div><!--end home-feature-->   
+
+     <div class="col-md-3 about-feature alignc">
+    <div class="about-img">
+        <div class="about-img-pos"><i class="fa fa-desktop"></i></div>
+    </div>
+    <h4><i>Web Design</i> </h4>
+    <span>Our professional  <strong>web designers</strong> are aimed at tailor-making you a perfect website. You will be able to have your company's own website soon.</span>
+     </div><!--end home-feature-->  
+
+     <div class="col-md-3 about-feature alignc">
+    <div class="about-img">
+        <div class="about-img-pos"><i class="fa fa-html5"></i></div>
+    </div>
+    <h4><i>Web App</i></h4>
+    <span>
+   We specialize in building cross-platform websites and apps,delivering a perfect user interface and functionality that is compatible with all mobile devices.</span>
+     </div><!--end home-feature-->    
+                   
+                </div><!--end container -->
+        <!--end services-bkg-->
+               
+        </section>
+                  
+        <!--end pricing-table-bkg-->
+ <section id="about" class=" parallax" style="background-image:url(<?php bloginfo('template_url'); ?>/public/images/bkgs/bkg-diamond.png); ">
+    
+                <div class="about-bkg mutualWrap">
+        <div class="container">
+        <div class="row">
+        
+
+        <div class="alignc">
+                <h1 class="section-title">About us</h1>
+        </div>
+
+                <div class="span8 offset2">
+           <h4 class="section-text alignc">MCastle specializes in developing innovative mobile applications and tailor-made services with leading-edge technology. We equipped ourselves with intelligence on customer needs, project delivery and technologies.</h4>
+        </div><!--end span8 -->
+        
+        </div><!--end row -->
+                
+        <div class="row">
+        <div class="col-md-2 about-feature alignc">
+    <div class="about-img">
+        <div class="about-img-pos"> 3</div>
+    </div>
+      <h4>3 Platforms</h4>
+    <span>iOS Android Web</span>
+     </div><!--end home-feature-->   
+
+        <div class="col-md-2 about-feature alignc">
+    <div class="about-img">
+        <div class="about-img-pos">5</div>
+    </div>
+    <h4>5 Years Exp</h4>
+    <span>2010-NOW Becoming the BEST we can be</span>
+
+        </div><!--end home-feature-->   
+        
+<div class="col-md-2 about-feature alignc">
+    <div class="about-img">
+        <div class="about-img-pos">10 </div>
+    </div>
+    <h4>10 Listed firms</h4>
+    <span>Over 10 listing Corporation</span>
+        </div><!--end home-feature-->   
+
+<div class="col-md-2 about-feature alignc">
+    <div class="about-img">
+        <div class="about-img-pos"> 100</div>
+     </div>
+    <h4>100 developers</h4>
+    <span> Industry top engineer</span>
+
+        </div><!--end home-feature-->
+
+<div class="col-md-2 about-feature alignc">
+    <div class="about-img">
+        <div class="about-img-pos"> 1000 </div>
+    </div>
+    <h4>1000 Products</h4>
+    <span>Completed 1000+ product designs</span>
+
+        </div></div><!--end row-->
+
+</div><!--end container -->
+</div><!--end about-bkg-->
+</section><!--end about-->
+
+
+<section id="team" class=" parallax" style=" background-image:url(<?php bloginfo('template_url'); ?>/public/images/bkgs/bkg-team.jpg); ">                 
+        <div class="team-bkg mutualWrap" style="background-color: rgba(15, 37, 64, 0.7); ">
+        <div class="container">
+        <div class="row">
+
+        <div class="alignc">
+            <h1 class="section-sub-title">Our team</h1>
+        </div>
+        </div><!--end row -->
+                   
+ <div class="flexslider flexslider-team row">
+<ul class="slides span12" >
+
+            <div class="col-md-1 team-member alignc">
+         <div class="team-member-img">
+         <img src="<?php bloginfo('template_url'); ?>/public/images/team/t1.jpg" alt="" draggable="false">
+         </div>
+         <h4>Patrick Yeung</h4>
+         </div><!--end span3-->
+             
+               <div class="col-md-1 team-member alignc">
+         <div class="team-member-img">
+         <img src="<?php bloginfo('template_url'); ?>/public/images/team/t2.jpg" alt="" draggable="false">
+         </div>
+         <h4>Daniel Cheung</h4>
+         </div><!--end span3-->
+           <div class="col-md-1 team-member alignc">
+         <div class="team-member-img">
+         <img src="<?php bloginfo('template_url'); ?>/public/images/team/t3.jpg" alt="" draggable="false">
+         </div>
+         <h4>Will  Yeung</h4>
+         </div><!--end span3-->
+           <div class="col-md-1 team-member alignc">
+         <div class="team-member-img">
+         <img src="<?php bloginfo('template_url'); ?>/public/images/team/t4.jpg" alt="" draggable="false">
+         </div>
+         <h4>Alan Lan</h4>
+         </div><!--end span3-->
+            <div class="col-md-1 team-member alignc">
+         <div class="team-member-img">
+         <img src="<?php bloginfo('template_url'); ?>/public/images/team/t5.jpg" alt="" draggable="false">
+         </div>
+         <h4>Raymond Yeung</h4>
+         
+         </div><!--end span3-->
+             <div class="col-md-1 team-member alignc">
+         <div class="team-member-img">
+         <img src="<?php bloginfo('template_url'); ?>/public/images/team/t6.jpg" alt="" draggable="false">
+         </div>
+         <h4>Kaylie Chan</h4>
+         </div><!--end span3-->
+            <div class="col-md-1 team-member alignc">
+         <div class="team-member-img">
+         <img src="<?php bloginfo('template_url'); ?>/public/images/team/t7.jpg" alt="" draggable="false">
+         </div>
+         <h4>Wisley</h4>
+         
+         </div><!--end span3-->
+          <div class="col-md-1 team-member alignc">
+         <div class="team-member-img">
+         <img src="<?php bloginfo('template_url'); ?>/public/images/team/t8.jpg" alt="" draggable="false">
+         </div>
+         <h4>Elton Yeung</h4>
+         </div><!--end span3-->
+            <div class="col-md-1 team-member alignc">
+         <div class="team-member-img">
+         <img src="<?php bloginfo('template_url'); ?>/public/images/team/t9.jpg" alt="" draggable="false">
+         </div>
+         <h4>Frank Cheung</h4>
+         
+         </div><!--end span3-->
+          <div class="col-md-1 team-member alignc">
+         <div class="team-member-img">
+         <img src="<?php bloginfo('template_url'); ?>/public/images/team/t10.jpg" alt="" draggable="false">
+         </div>
+         <h4>Jinn Cheung</h4>
+         </div><!--end span3-->
+            <div class="col-md-1 team-member alignc">
+         <div class="team-member-img">
+         <img src="<?php bloginfo('template_url'); ?>/public/images/team/t11.jpg" alt="" draggable="false">
+         </div>
+         <h4>Johnny Lui</h4>
+         
+         </div><!--end span3-->
+          <div class="col-md-1 team-member alignc">
+         <div class="team-member-img">
+         <img src="<?php bloginfo('template_url'); ?>/public/images/team/t12.jpg" alt="" draggable="false">
+         </div>
+         <h4>Owen Chan</h4>
+        
+         </div><!--end span3-->
+        
+        </div></ul></div></div><!--end flexslider-->
+</div><!--end container -->
+<div><!--end team-bkg-->
+</div></div></section><!--end team-->
+
+<section id="portfolio" class=" no-parallax">
+                       
+                <div class="portfolio-bkg-ajax mutualWrap-port">
+        <div class="container">
+        <div class="row">
+        
+        <div class="alignc">
+       <h1 class="section-title">Portfolio</h1><br>
+        <a class="section-rm" href="portfolio">Read More</a>
+        </div>
+                 
+<div class="portfolio-holder">
+
+<div class="projectWrap">
+<div class="container">
+<div class="row">
+<div class="span12 project-details">
+<img id="project-loader" src="<?php bloginfo('template_url'); ?>/public/images/loader.gif" alt="">
+<div class="project-content"></div>
+<div class="project-close"><span>Close</span></div>
+</div>
+</div>
+</div>
+</div><!--end projectWrap -->
+
+<ul id="portfolio-items" style="position: relative; overflow: hidden; " class="isotope">
+
+<li class="portfolio-item apps  isotope-item" >
+<div class="shot-wrap">
+<img src="<?php bloginfo('template_url'); ?>/public/images/portfolio/MobileStreet.png" alt="Weatherette" title="Weatherette">
+<div class="shot-more">
+<h4 class="shot-title">Mobile Street App</h4>
+<span>Mobile Street App is a local O2O type e-commers mobile app. It is aimed at facilitating local people to find the smartphone stores. The features of Mobile Street App include presentation of product details, and offers of nearby businesses and instant message. These features allow users to consult the details of mobile phone and warranty conditions directly. </span>
+</div><!--end .shot-more-->
+</div><!--end .shot-wrap-->
+</li>
+
+<li class="portfolio-item apps  isotope-item" >
+<div class="shot-wrap">
+<img  src="<?php bloginfo('template_url'); ?>/public/images/portfolio/Socially.jpg" alt="Calorbuddy app" title="Calorbuddy app">
+<div class="shot-more" style="background: none repeat scroll 0 0 #FE4C40;">
+<h4 class="shot-title">Social Platform App</h4>
+<span>It is designed to provide convenience to initiate activities. It allows users to initiate activities or gatherings on their own. At the same time, this App also supports merchants to settle on here, to provide the place for drinks and food service. The social media platform also supports the work assignment, allowing co-sponsor activity assign each person's main task, allowing activities to be carried out according to plan.</span>
+<!-- <a class="section-rm" href="blog">Read More</a> -->
+</div><!--end .shot-more-->
+</div><!--end .shot-wrap-->
+
+</li>
+
+<li class="portfolio-item apps isotope-item" >
+<div class="shot-wrap">
+<img src="<?php bloginfo('template_url'); ?>/public/images/portfolio/shopping.jpg" alt="Rockpack iPad" title="Rockpack iPad">
+<div class="shot-more">
+<h4 class="shot-title">Smart Shopping App</h4>
+<span>Smart shopping App is an O2O App to collect local promotional information for people, such as latest promotion of nearby shopping malls and supermarkets. Supermarket shopping App makes the locals get the latest prices through their search engine, while the user can also do redemption for a commodity or vouchers by acquired Smart coins directly on this App to make people have more promotions.</span>
+</div><!--end .shot-more-->
+</div><!--end .shot-wrap-->
+</li>
+
+
+<li class="portfolio-item branding  isotope-item" >
+<div class="shot-wrap">
+<img src="<?php bloginfo('template_url'); ?>/public/images/portfolio/Health.png" alt="" title="">
+<div class="shot-more" style="background: none repeat scroll 0 0 #FE4C40;">
+<h4 class="shot-title">Health Specialist Medical App</h4>
+<span>Health specialist medical App: health care, a App for doctor and patient to communicate, is a professional App with mobile medical consulting services, individual health plans and the family health management applications. Health Care App is different from pure mobile consulting applications social software. Users can manage their personal and family health by using this app.</span>
+</div><!--end .shot-more-->
+</div><!--end .shot-wrap-->
+</li>
+
+
+<li class="portfolio-item branding  isotope-item">
+<div class="shot-wrap">
+<img src="<?php bloginfo('template_url'); ?>/public/images/portfolio/Neighborhood.png" alt="" title="">
+<div class="shot-more" >
+<h4 class="shot-title">Neighborhood Help APP</h4>
+<span>More busy modern society is, more strange neighborhood relationship will be. We hope this App to narrow the distance between us.
+Do you want to be able to pay utility bills at home? Do you want to get help in a timely manner or to find good neighbors? Neighborhood can help you do it  immediately.
+</span>
+</div><!--end .shot-more-->
+</div><!--end .shot-wrap-->
+
+<li class="portfolio-item branding  isotope-item" >
+<div class="shot-wrap">
+<img src="<?php bloginfo('template_url'); ?>/public/images/portfolio/Animation.png" alt="" title="Socially">
+<div class="shot-more" style="background: none repeat scroll 0 0 #FE4C40;">
+<h4 class="shot-title">Animation World App</h4>
+<span>Animation World App is a mobile social platform to gather animation focus. Animation world provide the hottest animation series and news to fans. At the same time, this App also push the activity exhibition for them. Good animation fans will never miss each activity.</span>
+</div><!--end .shot-more-->
+</div><!--end .shot-wrap-->
+
+</li>
+</ul>
+</div><!--end portfolio-holder-->                                
+</div><!--end portfolio-bkg-ajax-->
+ </div><!--end row -->
+</div><!--end container -->
+</section><!--end portfolio-->
+
+<section id="blog" class=" parallax" style=" background-image:url(<?php bloginfo('template_url'); ?>/public/images/bkgs/gplaypattern.png); ">     
+                <div class="blog-bkg mutualWrap">
+        <div class="container">
+        <div class="row">
+
+        <div class="alignc">
+                <h1 class="section-title">Blog</h1><br>
+                <a class="section-rm" href="blog">Read More</a>      
+        </div>
+        
+        </div><!--end row -->             
+
+<div class="row"> 
+<?php foreach ($posts as $post): ?>
+<article >
+<div class="col-md-4 blog-col">
+<div class="blog-img">
+<img src="<?php echo  post_img ; ?>" alt="Tincidunt vitae magna" title="Tincidunt vitae magna">
+</div><!--end blog-img-->
+<div class="blog-info"> <span><?php echo  get_the_date() ; ?></span> </div>
+<div class="blog-text">
+<div class="title-blog-post">
+ <h2 class="entry-title"><a href="<?php echo  the_permalink() ; ?>" title="<?php echo  the_title() ; ?>"><?php echo  the_title() ; ?></a></h2>
+                </div>
+ <p> <?php echo  the_excerpt() ; ?></p></div>
+</div></article> <?php endforeach; ?>
+
+</div>
+</div>
+</div><!--end .blog-more-->
+        
+         </div><!--end row--> 
+                 
+ </div><!--end container -->
+</div><!--end blog-bkg-->
+        
+ </section>
+
+  <section id="contact" class=" no-parallax" style=" ">
+        
+        <div class="contact-bkg mutualWrap" style="  background-color:rgb(33, 182, 222); ">
+        <div class="container">
+        <div class="row">
+        <div class="alignc">
+                <h1 class="section-title section-color-c">Contact</h1>
+        </div>
+        
+        </div><!--end row -->
+                
+        <div class="row">
+<div class="span7">
+
+<div id="output"></div>
+
+</div><!--end span7-->
+
+</div><!--end row-->     
+<div class="row">
+<div class="col-md-6">
+
+<div id="contact-container" class="clearfix">
+
+<form action="" method="POST">
+<input type="hidden" name="_token" value="">
+<input type="text" name="nickname" class="comm-field" placeholder="Name" value="" size="22" tabindex="1" aria-required="true">
+<input type="email" name="email" class="comm-field" placeholder="Email" value="" size="22" tabindex="2" aria-required="true">
+<input type="text" name="website" class="comm-field" placeholder="phone" value="" size="22" tabindex="3" aria-required="true">       
+<textarea name="content" id="message2" placeholder="Message" rows="9" tabindex="4"></textarea> 
+<input type="submit" value="Send Message" id="submit" tabindex="5">
+</form>
+
+<div id="output"></div>
+
+</div>
+</div><!--end col-md-7-->
+
+<div  class="col-md-6 ">
+<div id="contact-container" class="map parallax"></div>  
+<div class="margin-t">
+<div class="contact-address">
+<ul>
+<i class="fa fa-map-marker"></i>    3/F Cornwall Court, 687-689 Nathan Rd, Mong Kok, Hong Kong</li>
+<li><i class="fa fa-mobile" style="font-size: 35px;position: relative;top: 7px;"></i>     (852)2135 6702</li>
+<li><i class="fa fa-envelope-o"></i>    Mapp@mapp.hk</li>
+</ul>
+</div>
+
+</div> 
+
+
+</div><!--end col-md-3-->
+</div>           
+                </div><!--end container -->
+        </div><!--end contact-bkg-->
+                      
+        </section>
+

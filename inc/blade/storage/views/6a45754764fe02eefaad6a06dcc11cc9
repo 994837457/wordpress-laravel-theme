@@ -1,0 +1,87 @@
+<?php if(post_password_required()): ?>
+  return;
+<?php endif; ?>
+
+<?php
+  global $postid;
+  $postid = get_the_ID();
+  $comments = get_comments(array(
+    'post_id' => $postid,
+    'status' => 'approve'
+  ));
+?>
+
+
+
+<section id="comments">
+  <?php if ($comments): ?>
+    <h3><?php printf(_n('One Response to &ldquo;%2$s&rdquo;', '%1$s Responses to &ldquo;%2$s&rdquo;', get_comments_number(), 'cutlass'), number_format_i18n(get_comments_number()), get_the_title()) ?></h3>
+
+    <ol class="media-list">
+      <?php echo  wp_list_comments(array('walker' => new cutlass_Walker_Comment), $comments) ; ?>
+    </ol>
+
+    <?php if(get_comment_pages_count() > 1 && get_option('page_comments')): ?>
+      <nav>
+        <ul class="pager">
+          <?php if (get_previous_comments_link()): ?>
+            <li class="previous"><?php echo  previous_comments_link(__('&larr; Older comments', 'cutlass')) ; ?></li>
+          <?php endif; ?>
+          <?php if (get_next_comments_link()): ?>
+            <li class="next"><?php echo  next_comments_link(__('Newer comments &rarr;', 'cutlass')) ; ?></li>
+          <?php endif; ?>
+        </ul>
+      </nav>
+    <?php endif; ?>
+
+    <?php if(!comments_open() && !is_page() && post_type_supports(get_post_type(), 'comments')): ?>
+      <div class="alert alert-warning">
+        <?php echo  _e('Comments are closed.', 'cutlass') ; ?>
+      </div>
+    <?php endif; ?>
+  <?php elseif(!comments_open() && !is_page() && post_type_supports(get_post_type(), 'comments')): ?>
+    <div class="alert alert-warning">
+      <?php echo  _e('Comments are closed.', 'cutlass') ; ?>
+    </div>
+  <?php endif; ?>
+</section><!-- /#comments -->
+
+<section id="respond">
+  <?php if (comments_open()): ?>
+    <h3><?php echo  comment_form_title(__('Leave a Reply', 'cutlass'), __('Leave a Reply to %s', 'cutlass')) ; ?></h3>
+    <p class="cancel-comment-reply"><?php echo  cancel_comment_reply_link() ; ?></p>
+    <?php if (get_option('comment_registration') && !is_user_logged_in()): ?>
+      <p>You must be <a href="<?php echo  wp_login_url(get_permalink()) ; ?>">logged in</a> to post a comment.</p>
+    <?php else: ?>
+      <form action="<?php echo  get_option('siteurl') ; ?>/wp-comments-post.php" method="post" id="commentform">
+        <?php if (is_user_logged_in()): ?>
+          <p>
+            Logged in as <a href="<?php echo  get_option('siteurl') ; ?>/wp-admin/profile.php"><?php echo  $user_identity ; ?></a>
+            <a href="<?php echo  wp_logout_url(get_permalink()) ; ?>" title="<?php echo  _e('Log out of this account', 'cutlass') ; ?>"><?php echo  _e('Log out &raquo;', 'cutlass') ; ?></a>
+          </p>
+        <?php else: ?>
+          <?php  $req = get_option('require_name_email'); ?>
+          <div class="form-group">
+            <label for="author"><?php echo  _e('Name', 'cutlass'); if ($req) _e(' (required)', 'cutlass') ; ?></label>
+            <input type="text" class="form-control" name="author" id="author" size="22" <?php if($req): ?> echo 'aria-required="true"'; <?php endif; ?>>
+          </div>
+          <div class="form-group">
+            <label for="email"><?php echo  _e('Email (will not be published)', 'cutlass'); if ($req) _e(' (required)', 'cutlass') ; ?></label>
+            <input type="email" class="form-control" name="email" id="email" size="22" <?php if ($req): ?> echo 'aria-required="true"'; <?php endif; ?>>
+          </div>
+          <div class="form-group">
+            <label for="url"><?php echo  _e('Website', 'cutlass') ; ?></label>
+            <input type="url" class="form-control" name="url" id="url" size="22">
+          </div>
+        <?php endif; ?>
+        <div class="form-group">
+          <label for="comment"><?php echo  _e('Comment', 'cutlass') ; ?></label>
+          <textarea name="comment" id="comment" class="form-control" rows="5" aria-required="true"></textarea>
+        </div>
+        <p><input name="submit" class="btn btn-primary" type="submit" id="submit" value="<?php echo  _e('Submit Comment', 'cutlass') ; ?>"></p>
+        <?php echo  comment_id_fields() ; ?>
+        <?php echo  do_action('comment_form', $post->ID) ; ?>
+      </form>
+    <?php endif; ?>
+  <?php endif; ?>
+</section><!-- /#respond -->

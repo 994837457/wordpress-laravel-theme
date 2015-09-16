@@ -1,0 +1,18 @@
+<?php echo view('templates.includes.page-header')->with(get_defined_vars())->render(); ?>
+
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+  <article <?php echo  post_class() ; ?>>
+    <header>
+      <?php echo view('templates.includes.entry-meta')->with(get_defined_vars())->render(); ?>
+    </header>
+    <div class="entry-content">
+      <?php echo  the_content() ; ?>
+    </div>
+    <footer>
+      <?php echo  wp_link_pages(array('before' => '<nav class="page-nav"><p>' . __('Pages:', 'cutlass'), 'after' => '</p></nav>')) ; ?>
+    </footer>
+    <?php echo view('templates.includes.comments')->with(get_defined_vars())->render(); ?>
+  </article>
+<?php endwhile; ?><?php else: ?>
+  <?php echo view('templates.content.empty')->with(get_defined_vars())->render(); ?>
+<?php endif; wp_reset_postdata(); ?>

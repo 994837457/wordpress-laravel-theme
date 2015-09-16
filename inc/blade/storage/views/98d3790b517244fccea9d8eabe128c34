@@ -1,0 +1,98 @@
+<section id="portfolio" class=" no-parallax">
+                       
+                <div class="portfolio-bkg-ajax mutualWrap-port">
+        <div class="container">
+        <div class="row">
+        
+        <div class="alignc">
+       <h1 class="section-title">Portfolio</h1><br>
+        <a class="section-rm" href="portfolio">Read More</a>
+        </div>
+                 
+<div class="portfolio-holder">
+
+<div class="projectWrap">
+<div class="container">
+<div class="row">
+<div class="span12 project-details">
+<img id="project-loader" src="<?php bloginfo('template_url'); ?>/public/images/loader.gif" alt="">
+<div class="project-content"></div>
+<div class="project-close"><span>Close</span></div>
+</div>
+</div>
+</div>
+</div><!--end projectWrap -->
+
+<ul id="portfolio-items" style="position: relative; overflow: hidden; " class="isotope">
+
+<li class="portfolio-item apps  isotope-item" >
+<div class="shot-wrap">
+<img src="<?php bloginfo('template_url'); ?>/public/images/portfolio/MobileStreet.png" alt="Weatherette" title="Weatherette">
+<div class="shot-more">
+<h4 class="shot-title">Mobile Street App</h4>
+<span>Mobile Street App is a local O2O type e-commers mobile app. It is aimed at facilitating local people to find the smartphone stores. The features of Mobile Street App include presentation of product details, and offers of nearby businesses and instant message. These features allow users to consult the details of mobile phone and warranty conditions directly. </span>
+</div><!--end .shot-more-->
+</div><!--end .shot-wrap-->
+</li>
+
+<li class="portfolio-item apps  isotope-item" >
+<div class="shot-wrap">
+<img  src="<?php bloginfo('template_url'); ?>/public/images/portfolio/Socially.jpg" alt="Calorbuddy app" title="Calorbuddy app">
+<div class="shot-more" style="background: none repeat scroll 0 0 #FE4C40;">
+<h4 class="shot-title">Social Platform App</h4>
+<span>It is designed to provide convenience to initiate activities. It allows users to initiate activities or gatherings on their own. At the same time, this App also supports merchants to settle on here, to provide the place for drinks and food service. The social media platform also supports the work assignment, allowing co-sponsor activity assign each person's main task, allowing activities to be carried out according to plan.</span>
+<!-- <a class="section-rm" href="blog">Read More</a> -->
+</div><!--end .shot-more-->
+</div><!--end .shot-wrap-->
+
+</li>
+
+<li class="portfolio-item apps isotope-item" >
+<div class="shot-wrap">
+<img src="<?php bloginfo('template_url'); ?>/public/images/portfolio/shopping.jpg" alt="Rockpack iPad" title="Rockpack iPad">
+<div class="shot-more">
+<h4 class="shot-title">Smart Shopping App</h4>
+<span>Smart shopping App is an O2O App to collect local promotional information for people, such as latest promotion of nearby shopping malls and supermarkets. Supermarket shopping App makes the locals get the latest prices through their search engine, while the user can also do redemption for a commodity or vouchers by acquired Smart coins directly on this App to make people have more promotions.</span>
+</div><!--end .shot-more-->
+</div><!--end .shot-wrap-->
+</li>
+
+
+<li class="portfolio-item branding  isotope-item" >
+<div class="shot-wrap">
+<img src="<?php bloginfo('template_url'); ?>/public/images/portfolio/Health.png" alt="" title="">
+<div class="shot-more" style="background: none repeat scroll 0 0 #FE4C40;">
+<h4 class="shot-title">Health Specialist Medical App</h4>
+<span>Health specialist medical App: health care, a App for doctor and patient to communicate, is a professional App with mobile medical consulting services, individual health plans and the family health management applications. Health Care App is different from pure mobile consulting applications social software. Users can manage their personal and family health by using this app.</span>
+</div><!--end .shot-more-->
+</div><!--end .shot-wrap-->
+</li>
+
+
+<li class="portfolio-item branding  isotope-item">
+<div class="shot-wrap">
+<img src="<?php bloginfo('template_url'); ?>/public/images/portfolio/Neighborhood.png" alt="" title="">
+<div class="shot-more" >
+<h4 class="shot-title">Neighborhood Help APP</h4>
+<span>More busy modern society is, more strange neighborhood relationship will be. We hope this App to narrow the distance between us.
+Do you want to be able to pay utility bills at home? Do you want to get help in a timely manner or to find good neighbors? Neighborhood can help you do it  immediately.
+</span>
+</div><!--end .shot-more-->
+</div><!--end .shot-wrap-->
+
+<li class="portfolio-item branding  isotope-item" >
+<div class="shot-wrap">
+<img src="<?php bloginfo('template_url'); ?>/public/images/portfolio/Animation.png" alt="" title="Socially">
+<div class="shot-more" style="background: none repeat scroll 0 0 #FE4C40;">
+<h4 class="shot-title">Animation World App</h4>
+<span>Animation World App is a mobile social platform to gather animation focus. Animation world provide the hottest animation series and news to fans. At the same time, this App also push the activity exhibition for them. Good animation fans will never miss each activity.</span>
+</div><!--end .shot-more-->
+</div><!--end .shot-wrap-->
+
+</li>
+</ul>
+</div><!--end portfolio-holder-->                                
+</div><!--end portfolio-bkg-ajax-->
+ </div><!--end row -->
+</div><!--end container -->
+</section><!--end portfolio-->

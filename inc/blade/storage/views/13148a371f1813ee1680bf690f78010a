@@ -1,0 +1,8 @@
+<?php // D:\website\mapp.hk/wp-content/themes/mapp/template-sidebar.php ?>
+<?php //  Template Name: Sidebar ?>
+<?php \Laravel\Section::start('page-content'); ?>
+
+	<?php echo view('templates.content.page')->with(get_defined_vars())->render(); ?>
+
+<?php \Laravel\Section::stop(); ?>
+<?php echo view( 'templates.layouts.sidebar' )->with(get_defined_vars())->render(); ?>

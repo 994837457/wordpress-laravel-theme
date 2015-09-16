@@ -1,0 +1,14 @@
+<?php echo view('templates.includes.head')->with(get_defined_vars())->render(); ?>
+
+<body <?php echo  body_class() ; ?> >
+
+  <?php echo view('templates.includes.nav')->with(get_defined_vars())->render(); ?>
+
+    <?php echo \Laravel\Section::do_yield('content'); ?>
+   
+  <?php echo view('templates.includes.footer')->with(get_defined_vars())->render(); ?>
+
+  <?php echo  wp_footer() ; ?>
+
+</body>
+</html>
